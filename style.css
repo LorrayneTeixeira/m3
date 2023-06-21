@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 4px;
+  color: #c6c6c6;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.login,
+.recuperar-senha {
+  background-color: #ffffff;
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  width: 400px;
+}
+h1,
+h2 {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
+  color: #353333;
+  font-size: 20px;
+  font-weight: 500;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+input[type="password"]::placeholder {
+  color: #c6c6c6;
+}
+button {
+  background: #fdf9f9;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+.button-login,
+.button-cadastro {
+  padding-top: 20px;
+}
+.esqueceu {
+  margin-top: 20px;
+}
+.esqueceu a {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #0069d9;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.form-tarefas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inp-tarefas[type="text"],
+.inp-tarefas,
+.inp-tarefas[type="date"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
+.centralizar {
+  text-align: center;
+}
+.sub-tarefas[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.sub-tarefas[type="submit"]:hover {
+  background-color: #0069d9;
+}
+.classificacao,
+.filtros1 {
+  max-width: max-content;
+  background-color: #adadad;
+}
+.classificacao a,
+.filtros1 a {
+  text-decoration: none;
+}
+.classificar p,
+.filtros2 p {
+  cursor: pointer;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #7c7c7c;
+}
+.clicar p,
+.escolherfiltro p {
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+#status {
+  color: red;
+  font-size: 16px;
+}
+.alterar {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.classificacao,
+.filtros1 {
+  position: relative;
+}
+
